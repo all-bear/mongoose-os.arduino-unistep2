@@ -11,15 +11,15 @@ Unistep2 *mgos_Unistep2_create(int _p1, int _p2, int _p3, int _p4, int _steps, u
 
 bool mgos_Unistep2_run(Unistep2 *unistep2);
 
-void mgos_Unistep2_move(Stepper *stepper, int steps);
+void mgos_Unistep2_move(Unistep2 *stepper, int steps);
 
-void mgos_Unistep2_moveTo(Stepper *stepper, unsigned int pos);
+void mgos_Unistep2_moveTo(Unistep2 *stepper, unsigned int pos);
 
-int mgos_Unistep2_currentPosition(Stepper *stepper);
+int mgos_Unistep2_currentPosition(Unistep2 *stepper);
 
-int mgos_Unistep2_stepsToGo(Stepper *stepper);
+int mgos_Unistep2_stepsToGo(Unistep2 *stepper);
 
-void mgos_Unistep2_stop(Stepper *stepper);
+void mgos_Unistep2_stop(Unistep2 *stepper);
 
 #ifdef __cplusplus
 }
