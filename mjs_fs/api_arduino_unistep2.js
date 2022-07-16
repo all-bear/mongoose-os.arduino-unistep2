@@ -1,5 +1,5 @@
 let Unistep2 = {
-    _create: ffi('void *mgos_Unistep2_create(int, int, int, int, int, long)'),
+    _create: ffi('void *mgos_Unistep2_create(int, int, int, int, int, int)'),
     _run: ffi('bool mgos_Unistep2_run(void *)'),
     _move: ffi('void mgos_Unistep2_move(void *, int)'),
     _moveTo: ffi('void mgos_Unistep2_moveTo(void *, int)'),
