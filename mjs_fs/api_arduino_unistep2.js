@@ -2,7 +2,7 @@ let Unistep2 = {
     _create: ffi('Unistep2 *mgos_Unistep2_create(int _p1, int _p2, int _p3, int _p4, int _steps, unsigned long _stepdelay)'),
     _run: ffi('bool mgos_Unistep2_run(void *)'),
     _move: ffi('void mgos_Unistep2_move(void *, int)'),
-    _moveTo: ffi('void mgos_Unistep2_move(void *, unsigned int)'),
+    _moveTo: ffi('void mgos_Unistep2_moveTo(void *, unsigned int)'),
     _currentPosition: ffi('int mgos_Unistep2_currentPosition(void *)'),
     _stepsToGo: ffi('int mgos_Unistep2_stepsToGo(void *)'),
     _stop: ffi('void mgos_Unistep2_stop(void *)'),
