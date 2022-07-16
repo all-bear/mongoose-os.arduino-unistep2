@@ -17,7 +17,7 @@ let Unistep2 = {
 
     _proto: {
         run: function() {
-          return Unistep2._run();
+          return Unistep2._run(this.unistep);
         },
 
         move: function(steps) {
