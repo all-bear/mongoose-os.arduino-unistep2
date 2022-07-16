@@ -39,5 +39,5 @@ int mgos_Unistep2_stepsToGo(Unistep2 *unistep) {
 void mgos_Unistep2_stop(Unistep2 *unistep) {
     if (unistep == nullptr) return;
 
-    unistep->stop(steps);
+    unistep->stop();
 }
